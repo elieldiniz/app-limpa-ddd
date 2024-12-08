@@ -1,0 +1,19 @@
+{
+  "name": "educacional",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --minify",
+    "dev": "tsup src/index.ts --dts --watch",
+    "test": "jest --watchAll --collectCoverageFrom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsup": "^8.3.5"
+  }
+}
