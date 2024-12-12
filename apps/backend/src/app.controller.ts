@@ -13,6 +13,6 @@ export class AppController {
 
   @Get('/id')
   getId(): string {
-    return Id.novoHash() ;
+    return Id.novoHash();
   }
 }
